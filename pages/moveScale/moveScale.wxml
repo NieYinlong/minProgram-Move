@@ -1,0 +1,19 @@
+<view 
+  class='bgBox' 
+  style="height:{{bgBoxHeight}}px; width:{{bgBoxWidth}}px"
+>
+  <image 
+    class='movedImg'
+    src='../../image/moveImg.png'
+    catchtouchmove='moveImgTouchmove'
+    style="width:{{moveImgW}}px;height:{{moveImgH}}px; left:{{moveImgLeft}}px;top:{{moveImgTop}}px"
+    />
+  
+  <image 
+    src='../../image/spreadIcon.png'
+    class='scaleIcon'
+    catchtouchmove='scaleTouchmove'
+    style="width:{{scaleIconFixWidth}}px;height:{{scaleIconFixWidth}}px; left:{{scaleLeft}}px; top:{{scaleTop}}px"
+  />
+</view>
+

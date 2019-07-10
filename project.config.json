@@ -1,0 +1,61 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.7.2",
+	"appid": "wxb7c4d139bacf7a47",
+	"projectname": "%E6%8B%96%E5%8A%A8%E7%BC%A9%E6%94%BE",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": 0,
+					"name": "moveScale",
+					"pathName": "pages/moveScale/moveScale",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "move",
+					"pathName": "pages/move/move",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}
